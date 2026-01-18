@@ -142,7 +142,19 @@ This follows a **server-side rendered architecture** using PHP.
 * Advanced analytics dashboard
 
 ---
+📜 ScreenShots
+Admin Login
+<img width="940" height="407" alt="Admin Login Page" src="https://github.com/user-attachments/assets/189bb065-5bf3-47dd-ad42-4cfd2e1c2efb" />
+User Login
+<img width="942" height="352" alt="User login" src="https://github.com/user-attachments/assets/dfdf078d-64dd-45d2-947a-2c9199a6d329" />
+News Feed
+<img width="946" height="364" alt="News Section" src="https://github.com/user-attachments/assets/7dfd9e8d-c45f-4229-8d5c-855cad6b34c3" />
+Manage Course via Admin
+<img width="933" height="403" alt="Manage Course" src="https://github.com/user-attachments/assets/8e3db302-2dd6-42d3-afde-0bcd7bdcbd3c" />
+User Enroll History 
+<img width="940" height="390" alt="user enroll history" src="https://github.com/user-attachments/assets/5e184ea6-7311-4d04-90b9-bb0c5a5c4443" />
 
+---
 📜 License
 
 This project is developed strictly for **academic and educational purposes**.
