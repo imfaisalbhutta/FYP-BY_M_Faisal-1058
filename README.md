@@ -1,105 +1,157 @@
-🍔 Food Delivery Website (MERN Stack)
 
-This repository contains the source code for a Food Delivery Web Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
-The platform allows users to browse food items, place orders online, and enables admins to manage products and orders efficiently.
-✨ Features
-👤 User Panel
 
-User Registration & Login
+# 🎓 Online Course Registration and Management System
 
-JWT Authentication
+## 📌 Project Overview
 
-Browse Food Items
+The **Online Course Registration and Management System** is a full-stack web application developed using **PHP and MySQL**, designed to automate and manage the academic course registration process in educational institutions.
 
-Filter Food Products
+The system provides **role-based access** with separate dashboards for **Students** and **Administrators**, ensuring secure authentication, efficient data handling, and smooth enrollment workflows.
+This project reflects practical implementation of **server-side scripting, database management, and session-based security**.
 
-Add to Cart
+---
 
-Place Order
+## 🌐 Demo (Localhost Environment)
 
-Secure Online Payment
+```
+http://localhost/OCR/onlinecourse/admin/index.php
+```
 
-Order History
+> Note: This project runs on a local development server using XAMPP.
 
-Logout
+---
 
-🛠 Admin Panel
+## 🧠 Developer Contribution / What I Implemented
 
-Admin Login
+* Designed and developed a **complete PHP-based web application**
+* Implemented **role-based authentication (Admin & Student)**
+* Built **secure login system using PHP sessions**
+* Designed normalized **MySQL relational database**
+* Integrated frontend with backend using **PHP–MySQL connectivity**
+* Implemented **CRUD operations** for courses and academic entities
+* Developed **change password module** for both Admin and Student
+* Managed **enrollment logic and enrollment history tracking**
+* Logged **student activities and login records**
+* Tested the system on **Apache server using XAMPP**
+* Deployed project on **GitHub with proper documentation**
 
-Product Management (Add / Update / Delete)
+---
 
-Order Management
+## 🚀 Core Features
 
-User Orders Tracking
+### 👨‍🎓 Student Module
 
-Role-Based Access
+* Secure Student Login
+* Online Course Enrollment
+* View Enrollment History
+* Profile Management
+* Change Password
+* Session-based Logout
 
-Authenticated REST APIs
+### 👨‍💼 Admin Module
 
-🔐 Security
+* Secure Admin Login
+* Session Management
+* Semester Management
+* Department Management
+* Course Management (Add / Update / Delete)
+* Student Management
+* Enrollment Monitoring
+* Student Login Logs
+* News / Notifications Management
+* Change Admin Password
+* Secure Logout
 
-JWT Authentication
+---
 
-Password Hashing using Bcrypt
+## ⚙️ System Architecture & Workflow
 
-Secure API Access
+1. User sends request via browser
+2. Apache server processes the request
+3. PHP handles business logic
+4. MySQL manages data storage and retrieval
+5. Response is returned to the client interface
 
-Role-Based Authorization
+This follows a **server-side rendered architecture** using PHP.
 
-💳 Payment Integration
+---
 
-Stripe Payment Gateway
+## 🛠️ Technologies & Tools Used
 
-Secure Checkout Process
+### Programming & Markup Languages
 
-🧰 Tech Stack
+* PHP
+* HTML5
+* CSS3
 
-Frontend:
+### Frameworks & Libraries
 
-React.js
+* Bootstrap (UI & responsiveness)
 
-Context API
+### Database
 
-CSS / Tailwind (agar use kiya ho)
+* MySQL (Relational Database)
 
-Backend:
+### Server & Environment
 
-Node.js
+* Apache Server
+* XAMPP Control Panel
 
-Express.js
+---
 
-MongoDB
+## ▶️ Run Procedure (Step-by-Step)
 
-Mongoose
+1. Install **XAMPP Control Panel**
+2. Start **Apache** and **MySQL**
+3. Copy project folder into:
 
-Authentication:
+   ```
+   C:\xampp\htdocs\
+   ```
+4. Open **phpMyAdmin**
+5. Create a database (e.g. `onlinecourse`)
+6. Import the provided SQL file
+7. Open browser and run:
 
-JWT
+   ```
+   http://localhost/OCR/onlinecourse/
+   ```
+8. Admin Panel:
 
-Bcrypt
+   ```
+   http://localhost/OCR/onlinecourse/admin/index.php
+   ```
 
-Payment:
+---
+ 🔐 Security Implementation
 
-Stripe
+* Session-based authentication
+* Role-based access control
+* Input validation
+* Restricted unauthorized access
+* Secure logout with session destroy
 
-📸 Screenshots
-🏠 Home Page
+---
 
-(Add screenshot)
+📈 Future Enhancements
 
-🍕 Products Page
+* Online payment gateway integration
+* Email & notification system
+* Fully responsive mobile design
+* Certificate generation
+* Advanced analytics dashboard
 
-(Add screenshot)
+---
 
-🛒 Cart Page
+📜 License
 
-(Add screenshot)
+This project is developed strictly for **academic and educational purposes**.
+Free to use for learning and research. Commercial use is not permitted.
 
-🔐 Login / Signup
+---
 
-(Add screenshot)
+ 📝 Feedback / Academic Note
 
-🧑‍💼 Admin Dashboard
+This project demonstrates strong understanding of **PHP backend development**, **database-driven applications**, and **real-world system implementation**.
+It successfully converts a manual course registration process into a secure and automated digital solution.
 
-(Add screenshot)
